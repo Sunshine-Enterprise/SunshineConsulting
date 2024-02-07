@@ -78,18 +78,20 @@
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-lg-6 text-center">
-                                <img class="rounded-circle" src="assets/sam.jpg" alt="..." />
-                                <p class="text-muted py-3">Founder / CEO</p>
-                            </div>
-                            <div class="col-lg-6">
-                                <h4 class="fw-bold">Sam Fargalla</h4>
-                                <p class="text-muted" id="paragraph">
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                <button class="btn btn-primary" id="sam" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                                </button>
+                                <h4 class="fw-bold pt-3">Sam Fargalla</h4>
+                                <p class="text-muted">Founder / CEO</p>
+                                    <!--<p class="text-muted" id="paragraph">
+                                    <img class="rounded-circle" src="assets/sam.jpg" alt="..." />
                                     Sam Faragalla, MA, SHRM-SCP is an expert in the Staffing and Recruitment industry.
                                      He is Human Resources Executive with over 15 years of comprehensive human resources
                                       experience including staffing, recruitment and retention, conflict resolution, change management,
                                        labor relations and benefits administration. 
                                          
-                                </p>
+                                </p>-->
                             </div>
                         </div>
 
@@ -98,18 +100,22 @@
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-lg-6 text-center">
-                                <img class="rounded-circle" src="assets/rania2.jpg" alt="..." />
-                                <p class="text-muted py-3">President/ Founder</p>
+                               <!-- <img class="rounded-circle" src="assets/rania2.jpg" alt="..." /> -->
+                                <button class="btn btn-primary" id="rania" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                                </button>
 
+                                <h4 class="fw-bold pt-3">Rania Hanna</h4>
+                                <p class="text-muted">President/ Founder</p>
+                
+                
                             </div>
-                            <div class="col-lg-6">
-                                <h4 class="fw-bold">Rania Hanna</h4>
+                            <!--<div class="col-lg-6">
                                 <p class="text-muted" id="paragraph">
                                     Rania is results orientated professional, offering over 15 years of progressive responsibility in recruiting.
                                      Consistently recognized as strategic and a change agent with the proven ability to design, build and re-organize
                                       recruitment teams to meet or exceed corporate talent objectives. 
                                       </p>
-                            </div>
+                            </div>-->
                         </div>
 
                         <!--<div class="text-center">
@@ -177,4 +183,21 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
+    <!---------------------------------------------------------------------------->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Show a second modal and hide this one with the button below.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+            </div>
+            </div>
+        </div>
+    </div>
 </html>

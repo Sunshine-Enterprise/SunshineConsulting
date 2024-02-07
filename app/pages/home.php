@@ -59,7 +59,6 @@
                         <h1 class="text-white font-weight-bold" id="shadow">Sunshine Enterprise Consulting</h1>
                         <h3 class="text-white fst-italic fs-5 pt-3" id="shadow">Expert Solutions for Dubai and US Market </h3>
                         <hr class="divider divider-light" />
-                        <a class="btn btn-primary btn-xl px-5 mx-4 my-5" id="markets">US Market</a>
                         <a class="btn btn-primary btn-xl px-5" id="markets">Dubai Market</a>
                         
                     </div>
@@ -73,94 +72,188 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Services</h2>
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Industries</h2>
                         <hr class="divider" />
                         
                     </div>
                 </div>
             </div>
         </section>
-           
+                   
         <!-- Services-->
         <section class="page-section pt-3" id="services">
             <div class="container px-4 px-lg-5">
                
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-award fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Project Management</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">Construction</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Accounting</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">Energy</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-graph-up fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Sourcing & Procurement Consultant</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">Hospitality</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-search fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Executive Search Services</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">Healthcare</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-bar-chart fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Recluitment Services</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/10.png" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">Education</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-person fs-1 text-warning"></i></div>
-                            <h3 class="h4 mb-2">Human Resources Consultancies</h3>
-                            <p class="text-muted mb-0">Giving solutions for solving this: service</p>
+                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <div class="mt-5 bg-secondary rounded-4">
+                            <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
+                            <h3 class="h5 mb-2 py-2 text-light">I.T</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!--------------------------------------------------------------->
 
-        <section class="page-section text-white py-1">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">Some of our clients</h2>
-                <hr class="divider mb-3" />
-                <!--<a class="btn btn-light btn-xl" href="#contact">contact us</a>-->
-            </div>
-        </section>
+    <section class="page-section text-white py-1 mb-5">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">Some of our clients</h2>
+            <hr class="divider mb-3" />
+            <!--<a class="btn btn-light btn-xl" href="#contact">contact us</a>-->
+        </div>
+    </section>
          <!-- Clients-->
          <div class="pb-5">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3 text-center">
-                        <img class="img-fluid" src="assets/ocps.jpeg" alt="..." />
+                    <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://aecom.com/">
+                            <img class="img-fluid" src="assets/aecom.png" alt="..." />
+                            </a>
+                        </div>
+                    
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.bechtel.com/">
+                            <img class="img-fluid" src="assets/bechtel.png" alt="..." />
+                            </a>
+                        </div>
+                    
+                        <div class="col-md-3 col-6  my-3 text-center">
+                            <a href="https://www.cemex.com/">
+                                <img class="img-fluid" src="assets/cemex.png" alt="..." />
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.turnerconstruction.com/">
+                                <img class="img-fluid" src="assets/turner.jpg" alt="..." />
+                            </a>
+                        </div>
+                        
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3 text-center">
-                        <img class="img-fluid" src="assets/polk.png" alt="..." />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3 text-center">
-                        <img class="img-fluid" src="assets/asphalt.png" alt="..." />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3 text-center">
-                        <img class="img-fluid" src="assets/caloptima.jpg" alt="..." />
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.parsons.com/">
+                                <img class="img-fluid" src="assets/parsons.png" alt="..." />
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.kbr.com/en">
+                                <img class="img-fluid" src="assets/kbr.png" alt="..." />
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.laneconstruct.com/">
+                                <img class="img-fluid" src="assets/lane.png" alt="..." />
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-3 col-6 my-3 text-center">
+                            <a href="https://www.nasa.gov/">
+                                <img class="img-fluid" src="assets/nasa.png" alt="..." />
+                            </a>
                     </div>
                 </div>
             </div>
         </div>
 
-       
+<!-------------------------------------------------------------->
+<section class="page-section bg-light masthead pb-2 pt-5" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">SERVICES</h2>
+                        <hr class="divider" />       
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="page-section pt-5 pb-4" id="services">
+            <div class="container">
+                <div class="row text-center">
+
+                     <div class="col-md-3 col-6 col-sm-6 py-3">
+                        <a href="services" class="text-dark">
+                            <span class="fa-stack fa-4x">
+                                <i class="bi bi-person-circle h1 text-warning"></i>
+                            </span>
+                            <h4 class="my-3">Temporary Staffing</h4>
+                        </a>
+                            <p class="text-muted">Provide Skilled</p>
+                    </div>
+
+                    <div class="col-md-3 col-6 col-6 col-sm-6 py-3">
+                        <a href="services" class="text-dark">
+                            <span class="fa-stack fa-4x">
+                                <i class="bi bi-diagram-3-fill h1 text-warning"></i>
+                            </span>
+                            <h4 class="my-3">Direct Placement</h4>
+                        </a>    
+                        <p class="text-muted">Expert Recruiters</p>
+                    </div>
+
+                    <div class="col-md-3 col-6 col-sm-6 py-3">
+                        <a href="services" class="text-dark">
+                            <span class="fa-stack fa-4x">
+                                <i class="bi bi-search h1 text-warning"></i>
+                            </span>
+                            <h4 class="my-3">Executive Search</h4>
+                        </a>
+                        <p class="text-muted"> High-level Executives </p>
+                    </div>
+                    
+                    <div class="col-md-3 col-6 col-sm-6 py-3">
+                        <a href="services" class="text-dark">
+                            <span class="fa-stack fa-4x">
+                                <i class="bi bi-bar-chart-fill h1 text-warning"></i>
+                            </span>
+                            <h4 class="my-3">Managed Services</h4>
+                        </a>
+                        <p class="text-muted">Comprehensive Solutions </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    
+    <!-- Clients-->
+    <!-----------------------------
         <section class="page-section bg-light masthead pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -173,8 +266,6 @@
             </div>
         </section>
 
-<!-- 
-     
         <div class="container my-3">
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -230,9 +321,9 @@
                 </div>
             </div>
         </div>
-  --> 
+------------------------------------>
         
-        <!-- Portfolio-->
+        <!-- Gallery 
         <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
@@ -293,40 +384,39 @@
                 </div>
             </div>
         </div>
-        <!-- Call to action-->
-
-
-        
+        -->
+<!-------------------------------------------------------------------------------------->
 
         <!-- Contact-->
         <section class="py-5" id="contact">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center pb-4">
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0" id="shadow-1">Contact Us</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Send us a messages and we will get back to you as soon as possible!</p>
+                        <p class="text-muted mb-4">Send us a messages and we will get back to you as soon as possible!</p>
                     </div>
                 </div>
 
                 <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 col-md-6 col-12 text-center">
-                        <h3 class="section-subheading fst-italic lh-base my-3" id="shadow-1">Whether you are in pursuit of exceptional talent or to boost your career, we are here to help.</h3>
-                        <div class="col-12 align-items-center">
-                            <img class="img-fluid rounded" src="assets/office.jpg" alt="..." />
-                        </div>
-                   <!--ERROR-->
-                        <div class="row text-center pt-5">
-                       
 
-                </div>
+                <div class="col-lg-6 col-md-6 col-12 text-center">
+                    
+                    <div class="row text-center pt-1" >
+                         <img class="img-fluid" width="100px" src="assets/logo.jpg" />
+                    </div>
 
+                    <h3 class="section-subheading fst-italic h5 lh-base my-3" id="shadow-1">Whether you are in pursuit of exceptional talent or to boost your career, we are here to help.</h3>
+                    <div class="col-12 align-items-center">
+                        <!-- <img class="img-fluid rounded" src="assets/office.jpg" alt="..." /> -->
+                    </div> 
+                    
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 text-center">
                     <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
+
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
@@ -391,10 +481,10 @@
         </section>
 
         <div class="container-fluid bg-light">
-            <h2 class="section-heading text-uppercase fw-bold text-dark text-center pt-4 my-0" id="shadow-1">Find Us</h2>
-                <p class="pb-4 pt-2 mb-0 text-center fst-italic">Send us a messages and we will get back to you as soon as possible!</p>
-        </div>
-        <section class="page-section bg-dark masthead py-5" id="about">
+            </div>
+    <section class="page-section bg-dark masthead py-5 pb-3" id="about">
+        <h2 class="section-heading text-uppercase fw-bold text-light text-center pt-4 my-0" id="shadow-1">Find Us</h2>
+        <p class="pb-4 pt-2 mb-0 text-center text-light fst-italic">Send us a messages and we will get back to you as soon as possible!</p>
         <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -455,7 +545,9 @@
         <footer class="footer py-4 bg-dark">
             <div class="container">
                 <div class="row align-items-center text-center">
+                    
                     <div class="col-lg-4 text-lg-start text-white" id="shadow-1">Sunshine Enterprise Consulting  &copy;</div>
+
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-linkedin"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>
