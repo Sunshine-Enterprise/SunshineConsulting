@@ -52,11 +52,12 @@
             </div>
         </nav>
 
-        <header class="masthead-1 bg-light">
+        <header class="masthead-2 bg-light">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold fst-italic" id="shadow">Team Sunshine Enterprise Consulting </h1>                        
+                        <h1 class="text-white font-weight-bold fst-italic" id="shadow">Our Amazing Team:</h1>                        
+                        <p class="fst-italic fst-italic text-light">We strive to be the premier national business solution for our clients, associates and business partners.</p>
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                     </div>
@@ -64,15 +65,10 @@
             </div>
         </header>
 
-
         <!-- Team-->
-        <section class="page-section bg-light pt-5" id="team">
+        <section class="page-section bg-light pt-2" id="team">
             <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="section-heading fst-italic fw-bold">Our Amazing Team:</h2>
-                    <p class="fst-italic fst-italic">Lorem ipsum dolor sit amet.</p>
-
-                </div>
+                <div class="text-center mb-5"></div>
 
                 <div class="row mb-5">
                     <div class="col-lg-6">
@@ -84,14 +80,6 @@
                                 </button>
                                 <h4 class="fw-bold pt-3">Sam Fargalla</h4>
                                 <p class="text-muted">Founder / CEO</p>
-                                    <!--<p class="text-muted" id="paragraph">
-                                    <img class="rounded-circle" src="assets/sam.jpg" alt="..." />
-                                    Sam Faragalla, MA, SHRM-SCP is an expert in the Staffing and Recruitment industry.
-                                     He is Human Resources Executive with over 15 years of comprehensive human resources
-                                      experience including staffing, recruitment and retention, conflict resolution, change management,
-                                       labor relations and benefits administration. 
-                                         
-                                </p>-->
                             </div>
                         </div>
 
@@ -101,27 +89,13 @@
                         <div class="row">
                             <div class="col-lg-6 text-center">
                                <!-- <img class="rounded-circle" src="assets/rania2.jpg" alt="..." /> -->
-                                <button class="btn btn-primary" id="rania" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                                <button class="btn btn-primary" id="rania" data-bs-target="#Rania" data-bs-toggle="modal">
                                 </button>
 
                                 <h4 class="fw-bold pt-3">Rania Hanna</h4>
-                                <p class="text-muted">President/ Founder</p>
-                
-                
+                                <p class="text-muted">President/ Founder</p>                
                             </div>
-                            <!--<div class="col-lg-6">
-                                <p class="text-muted" id="paragraph">
-                                    Rania is results orientated professional, offering over 15 years of progressive responsibility in recruiting.
-                                     Consistently recognized as strategic and a change agent with the proven ability to design, build and re-organize
-                                      recruitment teams to meet or exceed corporate talent objectives. 
-                                      </p>
-                            </div>-->
                         </div>
-
-                        <!--<div class="text-center">
-                            <p class="text-muted">Founder / CEO</p>
-                            <div class="col-lg-8 mx-auto text-center"></div>
-                        </div>-->
                     </div>
                 </div>
 
@@ -156,6 +130,10 @@
                 
             </div>
         </section>
+        <!-- Team-->
+        
+
+        
 
         <!-- Footer-->
         <footer class="footer py-4 bg-dark">
@@ -183,20 +161,55 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
-    <!---------------------------------------------------------------------------->
-    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+
+<!---------------------------------------------------------------------------->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+            
+            <div class="modal-header ">
+                <h1 class="modal-title fs-5 py-2 h2" id="exampleModalToggleLabel">Sam Fargalla</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                Show a second modal and hide this one with the button below.
+
+            <p class="text-muted" style="padding-left: 15px; padding-top:10px;">Founder / CEO</p>
+
+            <div class="modal-body lh-lg p-3 pt-0" style='text-align: justify;'>
+            Sam Faragalla, MA, SHRM-SCP is an expert in the Staffing and Recruitment industry.
+            He is Human Resources Executive with over 15 years of comprehensive human resources
+            experience including staffing, recruitment and retention, conflict resolution, change
+            management, labor relations and benefits administration. Proven experience collaborating
+            with senior management to conduct Human Resources strategic planning in order to support
+            and further corporate goals. Possess broad knowledge of human resources in a variety of
+            sectors including union and non-union environments and Fortune 500 companies with a large
+            number of exempt/non-exempt employees. Demonstrated experience initiating cost containment
+            strategies resulting in significant savings. Excellent ability to address and implement
+            strategic plans for talent acquisition, retention and succession planning. Proven skills
+            in labor and employment law including complaint investigation to thwart legal action.
             </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+            
             </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="Rania" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+            <div class="modal-header ">
+                <h1 class="modal-title fs-5 py-2 h2" id="exampleModalToggleLabel">Rania Hanna</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <p class="text-muted" style="padding-left: 15px; padding-top:10px;">President/ Founder</p>
+
+
+            <div class="modal-body lh-lg p-3" style='text-align: justify;'>
+            Rania is results orientated professional, offering over 15 years of progressive responsibility
+            in recruiting. Consistently recognized as strategic and a change agent with the proven ability
+             to design, build and re-organize recruitment teams to meet or exceed corporate talent objectives. Resourceful decision maker who combines integrity, exemplary leadership and proven operational skill to lead complex projects from conception through completion. Motivated by quality and the customer experience, looks for out-of-the-box solutions in delivering best practice results.
+            </div>
+            
             </div>
         </div>
     </div>

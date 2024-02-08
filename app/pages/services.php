@@ -75,7 +75,7 @@
       <div class="col d-flex flex-column align-items-start gap-2">
         <h2 class="fw-bold text-body-emphasis">SEC Overview</h2>
         <p class="text-body-secondary">The Sunshine Group has established a regional branch based in Dubai, Sunshine Enterprise Consulting (SEC).</p>
-        <a href="#" class="btn btn-primary btn-lg">Contact us</a>
+        <a href="contact" class="btn btn-primary btn-lg">Contact us</a>
       </div>
 
       <div class="col">
