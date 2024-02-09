@@ -78,10 +78,10 @@
            
         <!-- Services-->
         <section class="page-section pt-3" id="services align-items-center">
-            <div class="container px-4 px-lg-5">
+            <div class="container px-lg-5" >
                
                 <div class="row gx-4 gx-lg-5 ">
-                    <div class="col-lg-12 col-md-4 w-50">
+                    <div class="col-12 px-5">
                         <!-------------------------//-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
@@ -109,34 +109,36 @@
                                     <a href="#">scgcc@info.com</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
 
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
+
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                         <!-------------------------//-->
                     </div>
-                    
                 </div>
             </div>
         </section>
-
         
         <!-- Footer-->
         <footer class="footer py-4 bg-dark">
             <div class="container">
                 <div class="row align-items-center text-center">
+                    
                     <div class="col-lg-4 text-lg-start text-white" id="shadow-1">Sunshine Enterprise Consulting  &copy;</div>
+                    
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-linkedin"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="bi-instagram"></i></a>
                     </div>
+
                     <div class="col-lg-4 text-lg-end">
                         <a class="link-dark text-decoration-none me-3 text-white" href="#!">Privacy Policy</a>
                         <a class="link-dark text-decoration-none text-white" href="#!">Terms of Use</a>
                     </div>
+
                 </div>
             </div>
         </footer>

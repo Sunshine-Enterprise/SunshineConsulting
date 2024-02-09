@@ -11112,3 +11112,9 @@ video {
   position: absolute;
   z-index: 1;
 }
+
+
+ppx-2 {
+  padding-left: 10%px !important;
+  padding-right: 10%px !important;
+}

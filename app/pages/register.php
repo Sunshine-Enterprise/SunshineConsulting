@@ -1,3 +1,36 @@
+<?php
+
+if(!empty($_POST))
+{
+  //VALIDATIONS
+  $errors = [];
+  
+  if(empty($errors)){
+    $data = [];
+    $data['fname'] = $_POST['fname'];
+    $data['lname'] = $_POST['lname'];
+    $data['phone'] = $_POST['phone'];
+    
+    $data['email'] = $_POST['email'];
+    $data['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $data['password-1'] = password_hash($_POST['password-1'], PASSWORD_DEFAULT);
+    
+    
+    $data['city'] = $_POST['city'];
+    $data['country'] = $_POST['country'];
+    
+    $data['role'] = $_POST['role'];
+    
+    $query = "insert into users (fname, lname, phone, email, password, password-1, country, city, cv, industry)"; 
+    query($query, $data);
+
+//    redirect('login');
+    
+  }
+  
+}
+  ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -73,7 +106,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Industries</h2>
+                        <h2 class="section-heading fw-bold" id="shadow-1">Sign Up</h2>
                         <hr class="divider" />
                         
                     </div>

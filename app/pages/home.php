@@ -146,7 +146,8 @@
          <div class="pb-5">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-3 col-6 my-3 text-center">
+                        
+                        <div class="col-md-3 col-6 my-3 text-center">
                             <a href="https://aecom.com/">
                             <img class="img-fluid" src="assets/aecom.png" alt="..." />
                             </a>
@@ -170,7 +171,7 @@
                             </a>
                         </div>
                         
-                    </div>
+                </div>
                     <div class="row align-items-center">
                         <div class="col-md-3 col-6 my-3 text-center">
                             <a href="https://www.parsons.com/">
