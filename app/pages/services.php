@@ -11,37 +11,41 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <link href="<?php ?>/css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
 
     </head>
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="home">SCGCC</a>
+
                 <div class="dropdown">
+                    
                     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Language
                     </button>
+
                     <ul class="dropdown-menu">
                       <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
                       <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
                     </ul>
-                  </div>
+
+                </div>
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                    <span class="navbar-toggler-icon"></span></button>
+                <span class="navbar-toggler-icon"></span></button>
+                
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>
                     </ul>
-
                 </div>
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="login" class="text-dark">Login</a></li>
@@ -49,14 +53,15 @@
                         <li class="nav-item"></li>
                     </ul>
                 </div>
+
             </div>
         </nav>
 
-        <header class="masthead-2 py-5">
-            <div class="container px-4 px-lg-5 h-100 py-5">
+        <header class="bg-dark py-4 pt-5">
+            <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-12 align-self-end pt-4">
-                        <h1 class="text-white font-weight-bold text-uppercase" id="shadow">secgcc services</h1>                        
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold fst-italic" id="shadow"> </h1>                        
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                     </div>
@@ -64,18 +69,31 @@
             </div>
         </header>
 
+        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading fw-bold" id="shadow-1">Sunshine Consulting Services</h2>
+                        <p class="fst-italic fst-italic text-secondary pt-3">SEC is specialized in providing a wide variety of temporary, contract, and permanent staffing and recruitment solutions for multinational companies, SMEs and Government entities from entry to executive-level positions.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <div class="container px-4 pt-5 pb-0">
 
+        <h2 class="fw-bold text-body-emphasis text-center">SEC Overview</h2>
+        <h2 class="pb-2 border-bottom"><h2>
 
-<div class="container px-4 py-5">
-<h2 class="pb-2 border-bottom">The Sunshine Group:</h2>
-<h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1"></h2>
+        <hr class="divider" />
+        <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1"></h2>
 
 
     <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
       <div class="col d-flex flex-column align-items-start gap-2">
-        <h2 class="fw-bold text-body-emphasis">SEC Overview</h2>
         <p class="text-body-secondary">The Sunshine Group has established a regional branch based in Dubai, Sunshine Enterprise Consulting (SEC).</p>
-        <a href="contact" class="btn btn-primary btn-lg">Contact us</a>
+        <a href="home#contact" class="btn btn-primary btn-lg">Contact us</a>
       </div>
 
       <div class="col">
@@ -171,7 +189,7 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body" style="text-align: center; !important;">We offer comprehensive solutions to manage entire recruitment processes, from sourcing to onboarding, 
-                    saving time and resources for our clients as well as to handle resources’ visa, payroll, and associated benefits on behalf of our customers.</div>
+                    saving time and resources for our clients. <!-- as well as to handle resources’ visa, payroll, and associated benefits on behalf of our customers. --></div>
                 </div>
             </div>
 
@@ -186,76 +204,79 @@
   </div>
 
 
-        <div class="container-fluid bg-light">
-            </div>
-    <section class="page-section bg-dark masthead py-5 pb-3" id="about">
-        <h2 class="section-heading text-uppercase fw-bold text-light text-center pt-4 my-0" id="shadow-1">Find Us</h2>
-        <p class="pb-4 pt-2 mb-0 text-center text-light fst-italic">Send us a messages and we will get back to you as soon as possible!</p>
-        <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                       
-                    </div>
-                </div>
+        <h2 class="fw-bold text-body-emphasis text-center"> Areas: </h2>
 
-                <div class="container-fluid px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-12 col-md-12 col-12 text-center">
-                    <div class="row text-center">
-                        <div class="col-lg-6 col-6">
-                            <div class="text-center text-light">                              
-                                <h4 id="phone">+971 (123) 456-6789</h4>
-                                <p class="fw-bold text-white">Dubai</p>
+        <hr class="divider" />
+        <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1"></h2>
+
+        <!-- Gallery-->
+        <div id="portfolio" class="mb-5">
+                    <div class="container p-0">
+                        <div class="row g-0">
+                        <div class="col-lg-4 col-sm-6 p-2">
+                            <a class="portfolio-box" href="assets/2.png" title="Construction Service">
+                                <img class="img-fluid" src="assets/2.png" alt="..." />
+                                <div class="portfolio-box-caption bg-light rounded-bottom">
+                                <div class="project-name text-center text-secondary py-2">Construction</div>
                             </div>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-6">
-                            <div class="text-center text-light">
-                                <h4 id="phone">+1 (407) 636-2982</h4>
-                                <p class="fw-bold text-white">United States</p>                                
+
+
+                    <div class="col-lg-4 col-sm-6 p-2">
+                        <a class="portfolio-box" href="assets/energy.jpg" title="Energy Service">
+                            <img class="img-fluid" src="assets/energy.jpg" alt="..." />
+                            <div class="portfolio-box-caption bg-light rounded-bottom">
+                            <div class="project-name text-center text-secondary py-2">Energy</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9597848676813!2d55.14060967599416!3d25.06935213686593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6cb347c3947b%3A0x2631d925145d23ed!2sTrack24%20-%20Gold%20Tower%20-%20Cluster%20I%20-%20JLT!5e0!3m2!1sen!2sus!4v1706819788010!5m2!1sen!2sus"
-                            width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-lg-4 col-sm-6 p-2">
+                        <a class="portfolio-box" href="assets/4.png" title="Hospitality Service">
+                            <img class="img-fluid" src="assets/4.png" alt="..." />
+                            <div class="portfolio-box-caption bg-light rounded-bottom">
+                            <div class="project-name text-center text-secondary py-2">Hospitality</div>
+                            </div>
+                        </a>
                     </div>
-
+                    <div class="col-lg-4 col-sm-6 p-2">
+                        <a class="portfolio-box" href="assets/5.png" title="Healthcare Service">
+                            <img class="img-fluid" src="assets/5.png" alt="..." />
+                            <div class="portfolio-box-caption bg-light rounded-bottom">
+                            <div class="project-name text-center text-secondary py-2">Healthcare</div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 text-center">
+                    <div class="col-lg-4 col-sm-6 p-2">
+                        <a class="portfolio-box" href="assets/10.png" title="Education Service">
+                            <img class="img-fluid" src="assets/10.png" alt="..." />
+                            <div class="portfolio-box-caption bg-light rounded-bottom">
+                                <div class="project-name text-center text-secondary py-2">Education</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 p-2">
+                        <a class="portfolio-box" href="assets/9.png" title="I.T Service">
+                            <img class="img-fluid" src="assets/9.png" alt="..." />
+                            <div class="portfolio-box-caption bg-light rounded-bottom">
+                            <div class="project-name text-center text-secondary py-2">I.T</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-
-                <!--
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-
-                       
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
-                        <h4 class="fst-italic fw-bold" id="shadow-1">Dubai: +1 (555) 123-4567 </h4>
-                        <h4 class="fst-italic fw-bold" id="shadow-1">United States: +1 (555) 123-4567 </h4>
-                        
-                    </div>
-                </div>
-                -->
-
-                
             </div>
-        </section>
+        </div>
+        <!-- Call to action-->
 
 
 
         <!-- Footer-->
-        <footer class="footer py-4 bg-dark">
+        <footer class="footer py-4 bg-dark pt-4">
             <div class="container">
                 <div class="row align-items-center text-center">
-                    
-                    <div class="col-lg-4 text-lg-start text-white" id="shadow-1">Sunshine Enterprise Consulting  &copy;</div>
-
+                    <div class="col-lg-4 text-lg-start text-white">Sunshine Enterprise Consulting &copy;</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-linkedin"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-twitter"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="bi-instagram"></i></a>
                     </div>

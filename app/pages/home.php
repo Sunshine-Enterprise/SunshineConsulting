@@ -13,12 +13,49 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <link href="<?php ?>/css/styles.css" rel="stylesheet" />
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     </head>
+
+    <!------------
+
+    PNG:(About us, Services, Vacancies, Team, Contact us)
+    take out login (remove yellow buttons)
+
+    Recluiter Login, Candidate login
+    Contact us
+
+
+
+    (Expert solutions for dubai) remove
+    (work with us) remove
+
+    Gallery industries slides
+
+
+    clients to the bottom (slides)
+
+    Company Solutions (Remove home page)
+
+    project management slide (add) (remove subtitle)
+
+    remove find us and contact us
+
+    the same header (pages)
+
+    family font 
+
+
+    -------------->
+
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="home">SCGCC</a>
+                
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Language
@@ -37,8 +74,9 @@
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register">Register</a></li>
+                       <!-- <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li> -->
+                        <!--<li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>-->
                         <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
                     </ul>
 
@@ -60,8 +98,7 @@
                         <h1 class="text-white font-weight-bold" id="shadow">Sunshine Enterprise Consulting</h1>
                         <h3 class="text-white fst-italic fs-5 pt-3" id="shadow">Expert Solutions for Dubai and US Market </h3>
                         <hr class="divider divider-light" />
-                        <a class="btn btn-primary btn-xl px-5" id="markets">Dubai Market</a>
-                        
+                        <a class="btn btn-primary btn-xl px-5" href="#contact" id="markets">Work with us</a>
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                     </div>
@@ -69,25 +106,56 @@
             </div>
         </header>
 
+
+        
+        
         <section class="page-section bg-light masthead pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Industries</h2>
+                        <h2 class="section-heading fw-bold" id="shadow-1">Industries</h2>
                         <hr class="divider" />
                         
                     </div>
                 </div>
             </div>
         </section>
+
+
+
                    
         <!-- Services-->
+        <section class="page-section pt-3" id="services">
+            <div class="container px-4 px-lg-5">
+               <div class="text-center fw-bold display-3">Services</div>
+
+               <div class="owl-carousel owl-theme">
+                    <div class="item">
+                            <div class="card">
+                                <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        Card Numer 1
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+
+
+ <!----------------------------------------------------------->
+ 
+ 
         <section class="page-section pt-3" id="services">
             <div class="container px-4 px-lg-5">
                
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services">
+                        <!-- <a class="portfolio-box" >-->
+                        <a href="services" title="Construction Service">
                             <div class="card_services mt-5 bg-secondary rounded-4">
                                 <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
                                 <h3 class="h5 mb-2 py-2 text-light">Construction</h3>
@@ -95,46 +163,61 @@
                             </div>
                         </a>
                     </div>
+                   
                     <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">Energy</h3>
-                            <div class="overlay"></div>
-                        </div>
+                        <a href="services" title="Construction Service">
+                            <div class="card_services mt-5 bg-secondary rounded-4">
+                                <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
+                                <h3 class="h5 mb-2 py-2 text-light">Energy</h3>
+                                <div class="overlay"></div>
+                            </div>
+                        </a>
                     </div>
+                    
                     <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">Hospitality</h3>
-                            <div class="overlay"></div>
-                        </div>
+                        <a href="services" title="Construction Service">
+                            <div class="card_services mt-5 bg-secondary rounded-4">
+                                <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
+                                <h3 class="h5 mb-2 py-2 text-light">Hospitality</h3>
+                                <div class="overlay"></div>
+                            </div>
+                        </a>
                     </div>
+                    
                     <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">Healthcare</h3>
-                            <div class="overlay"></div>
-                        </div>
+                        <a href="services" title="Construction Service">
+                            <div class="card_services mt-5 bg-secondary rounded-4">
+                                <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
+                                <h3 class="h5 mb-2 py-2 text-light">Healthcare</h3>
+                                <div class="overlay"></div>
+                            </div>
+                        </a>
                     </div>
+
                     <div class="col-lg-4 col-md-4 col-6 text-center">
+                        <a href="services" title="Construction Service">
                         <div class="card_services mt-5 bg-secondary rounded-4">
                             <img class="img-fluid rounded-4" src="assets/10.png" alt="..." />
                             <h3 class="h5 mb-2 py-2 text-light">Education</h3>
                             <div class="overlay"></div>
                         </div>
+                        </a>
                     </div>
+
                     <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">I.T</h3>
-                            <div class="overlay"></div>
-                        </div>
+                        <a href="services" title="Construction Service">
+                            <div class="card_services mt-5 bg-secondary rounded-4">
+                                <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
+                                <h3 class="h5 mb-2 py-2 text-light">I.T</h3>
+                                <div class="overlay"></div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--------------------------------------------------------------->
 
+<!--------------------------------------------------------------->
     <section class="page-section text-white py-1 mb-5">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">Some of our clients</h2>
@@ -201,6 +284,77 @@
         </div>
 
 <!-------------------------------------------------------------->
+<!-- About-->
+
+<section class="page-section bg-white masthead pb-2 pt-5" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Company Solutions Us</h2>
+                        <hr class="divider" />       
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="page-section pt-5 pb-2" id="about">
+            <div class="container">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/publicSec.png" alt="..." id="solutions-img"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="fst-light h5"> Temporary Staffing <i class="bi bi-award-fill text-warning"></i></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We offer end-to-end staffing and recruiting services, adopting diverse sourcing strategies and providing tailored solutions to meet the specific requirements of our clients.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/contract.png" alt="..." id="solutions-img"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="fst-light h5"> <i class="bi bi-shield-fill-check text-warning"></i> Direct Placement </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Our cutting-edge technology solutions and dedicated industry-experienced recruiters streamline the hiring process, reducing time-to-hire and ensuring a seamless experience for both clients and candidates. </p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/executive.png" alt="..." id="solutions-img"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                            <h4 class="fst-light h5"> Executive Search  <i class="bi bi-bar-chart-line-fill text-warning"></i></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We have built a vast network of highly skilled professionals across a variety of industries, job functions, and levels, enabling us to connect businesses with the highest-caliber talents quickly and efficiently.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/privateSec.png" alt="..." id="solutions-img"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="fst-light h5"> <i class="bi bi-bank2 text-warning"></i> Managed Services </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Our cutting-edge technology solutions and dedicated industry-experienced recruiters streamline the hiring process, reducing time-to-hire and ensuring a seamless experience for both clients and candidates. </p></div>
+                        </div>
+                    </li>
+                    <!--
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </section>
+
+<!-------------------------------------------------------------->
 <section class="page-section bg-light masthead pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -212,7 +366,7 @@
     </div>
 </section>
 
-<section class="page-section pt-5 pb-4" id="services">
+<section class="page-section py-5" id="services">
             <div class="container">
                 <div class="row text-center">
 
@@ -259,6 +413,9 @@
                 </div>
             </div>
         </section>
+
+
+        
 
 
     
@@ -397,62 +554,80 @@
         -->
 <!-------------------------------------------------------------------------------------->
 
-        <!-- Contact-->
-        <section class="py-5" id="contact">
+<section class="page-section bg-white masthead pb-2 pt-5" id="contact">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center pb-4">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0" id="shadow-1">Contact Us</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-4">Send us a messages and we will get back to you as soon as possible!</p>
-                    </div>
-                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Contact Us</h2>
+                        <hr class="divider" />       
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Contact-->
+        <section class="py-3" >
+            <div class="container px-4 px-lg-5">
 
                 <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
 
-                <div class="col-lg-6 col-md-6 col-12 text-center">
-                    
-                    <div class="row text-center pt-1" >
-                         <img class="img-fluid" width="100px" src="assets/logo.jpg" />
-                    </div>
-
-                    <h3 class="section-subheading fst-italic h5 lh-base my-3" id="shadow-1">Whether you are in pursuit of exceptional talent or to boost your career, we are here to help.</h3>
-                    <div class="col-12 align-items-center">
-                        <!-- <img class="img-fluid rounded" src="assets/office.jpg" alt="..." /> -->
-                    </div> 
-                    
-
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 text-center">
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">A name is required.</div>
+                                <label for="name">First Name</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">First name is required.</div>
                             </div>
-                            <!-- Email address input-->
+                        </div>    
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1  text-center">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Last Name</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">Last name is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback text-start" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback text-start" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <!-- Phone number input-->
+                        </div>    
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1  text-center">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Phone number</label>
                                 <div class="invalid-feedback text-start" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
-                            <!-- Message input-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center py-1">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 px-1 text-center">
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback text-start" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-  
+                        </div>    
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-12 text-center py-2">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
+
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
@@ -461,32 +636,20 @@
                                     <a href="#">scgcc@info.com</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-
+                             <!-- Submit error message-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+
+                        </div>    
                     </div>
                 </div>
 
-                <!--
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
 
-                       
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
-                        <h4 class="fst-italic fw-bold" id="shadow-1">Dubai: +1 (555) 123-4567 </h4>
-                        <h4 class="fst-italic fw-bold" id="shadow-1">United States: +1 (555) 123-4567 </h4>
-                        
-                    </div>
-                </div>
-                -->
 
-                
+                </form>
+                </div>
+                </div>
             </div>
         </section>
 
@@ -547,12 +710,9 @@
                     </div>
                 </div>
                 -->
-
                 
             </div>
         </section>
-
-
 
         <!-- Footer-->
         <footer class="footer py-4 bg-dark">

@@ -73,7 +73,7 @@
                         <div class="row gx-4 gx-lg-5 justify-content-center">
                             <div class="col-lg-8 text-center">
                                 <p class=" fw-bold fst-italic fw-light" id="shadow-1">
-                                    Sunshine Enterprise Consulting is a family-owned company and we take great pride in our business.
+                                The Sunshine Group has established a regional branch based in Dubai, Sunshine Enterprise Consulting (SEC).
                                 </p>
 
                                 <hr class="divider" />
@@ -81,10 +81,10 @@
                                     Our Company and Mission
                                 </h4>          
                                 <p class="lh-lg">
-                                    Sunshine Enterprise USA is a family-owned company and we take great pride in our business. 
-                                    We provide a variety of staffing and recruitment options for small businesses, corporations,
-                                     and government entities. Superior customer service, straightforward communication and fair 
-                                     pricing are the cornerstones of every relationship we build.
+                                SEC is specialized in providing a wide variety of temporary, contract, and permanent staffing and recruitment 
+                                solutions for multinational companies, SMEs and Government entities from entry to executive-level positions. 
+.                               Construction and Engineering, O&G, Water and Energy, Aviation, Hospitality, Healthcare, Information Technology and Education are the main industries that we cover.
+
                                 </p>
                                 
                                 
@@ -92,27 +92,31 @@
                                     Our Vision
                                 </h4>          
                                 <p class="lh-lg">
-                                    Sunshine Enterprise USA strives to be the premier national business solution of choice for our
-                                     clients, associates and business partners. Our ongoing commitment is connection – bringing
-                                      together great people and great organizations to build successful relationships.
-                                </p>
-                                
-                                
-                                <h4 class="pt-5">
-                                    Our Core Values
-                                </h4>          
-                                <p class="lh-lg">
-                                    Our values are embedded into our culture and are the backbone of our business conduct.
-                                     They reflect our sense of duty and responsibility in upholding our commitment to the well-being
-                                      of every person and organization with whom we work
+                                Our vision is to be the leading staffing and recruiting business partner, recognized for our commitment to excellence,
+                                 integrity, and customized service of the highest quality.
+
                                 </p>
                                 
                                 <h4 class="pt-5">
-                                    About the Culture
+                                    Our Mission
                                 </h4>          
                                 <p class="lh-lg">
-                                    Unwavering dedication to our organization, mission, and clients. Honesty and virtue in our
-                                     thoughts, words, and actions. Excellence in everything we do. Unity, trust, and respect for one another.
+                                Our mission is to provide exceptional staffing and recruiting services that help businesses reduce overhead and operational
+                                costs and improve productivity and connect experienced professionals with the right opportunities, driving success for both
+                                 businesses and candidates.
+
+                                </p>
+                                
+                                <h4 class="pt-5">
+                                    About our values
+                                </h4>          
+                                <p class="lh-lg">
+                                Our values are deeply-rooted in our organizational culture and they drive our business conduct: 
+
+                                    <p class="text-decoration-underline fst-italic text-warning"> Loyalty</p>
+                                    <p class="text-decoration-underline fst-italic text-warning"> Integrity</p>
+                                    <p class="text-decoration-underline fst-italic text-warning"> Professionalism</p>
+                                    <p class="text-decoration-underline fst-italic text-warning"> Cohersiveness</p>
                                 </p>
                                 
                             </div>
@@ -129,7 +133,7 @@
         <footer class="footer py-4 bg-dark">
             <div class="container">
                 <div class="row align-items-center text-center">
-                    <div class="col-lg-4 text-lg-start text-white">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start text-white">Sunshine Enterprise Consulting &copy;</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-twitter"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>

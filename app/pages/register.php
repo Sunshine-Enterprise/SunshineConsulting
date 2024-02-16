@@ -178,7 +178,7 @@ if(!empty($_POST))
               </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-6">
             <label for="state" class="form-label">Country</label>
               <select class="form-select" id="country" required="">
                 <option value="">Choose your Country</option>
@@ -189,8 +189,8 @@ if(!empty($_POST))
               </div>
             </div>
 
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
+            <div class="col-md-6">
+              <label for="state" class="form-label">City</label>
               <select class="form-select" id="state" required="">
                 <option value="">Choose...</option>
                 <option>California</option>
@@ -200,14 +200,6 @@ if(!empty($_POST))
               </div>
             </div>
 
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required="">
-              <div class="invalid-feedback">
-                Zip code required.
-              </div>
-            </div>
-          </div>
 
           <label for="formFileMultiple" class="form-label pt-3"> CV</label>
           <input class="form-control" type="file" id="formFileMultiple" multiple>
@@ -253,7 +245,7 @@ if(!empty($_POST))
           <div class="row gy-3">
           </div>
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Register</button>
+          <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">Submit</button></div>
         </form>          
             </div>
         </section>
@@ -303,7 +295,7 @@ if(!empty($_POST))
         <footer class="footer py-4 bg-dark">
             <div class="container">
                 <div class="row align-items-center text-center">
-                    <div class="col-lg-4 text-lg-start text-white">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 text-lg-start text-white">Sunshine Enterprise Consulting &copy; </div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-twitter"></i></a>
                         <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>

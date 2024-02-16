@@ -66,14 +66,18 @@
 
         <section class="page-section bg-light masthead pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+               <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Sunshine Consulting</h2>
                         <hr class="divider" />
                         
                     </div>
-                </div>
+                </div> -->
             </div>
+        </section>
+
+        <section class="page-section pt-3" id="services align-items-center">
+            
         </section>
            
         <!-- Services-->
@@ -82,45 +86,70 @@
                
                 <div class="row gx-4 gx-lg-5 ">
                     <div class="col-12 px-5">
+
+
                         <!-------------------------//-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback text-start" data-sb-feedback="email:email">Email is not valid.</div>
+                        <h2 class="fw-bold text-body-emphasis text-center">Log In</h2>
+
+                         <hr class="divider" />
+
+                        <!-------------------------//-->
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-lg-6 col-md-12 col-12 px-5">
+
+                                     <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                    <!-- Email address input-->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                        <label for="email">Email address</label>
+                                        <div class="invalid-feedback text-start" data-sb-feedback="email:required">An email is required.</div>
+                                        <div class="invalid-feedback text-start" data-sb-feedback="email:email">Email is not valid.</div>
+                                    </div>
+
+                                    <!-- Phone number input-->
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="phone" type="password" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                        <label for="phone">Password</label>
+                                        <div class="invalid-feedback text-start" data-sb-feedback="phone:required">A password  is required.</div>
+                                    </div>
+
+
+                                    <div class="form-floating mb-3">
+                                        <a href="#">Register Now</a>
+                                        <a href="#" class="float-end">Forget Password?</a>
+                                    </div>
+
+                                    <!-- Submit success message-->
+                                    <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center mb-3">
+                                            <div class="fw-bolder">Form submission successful!</div>
+                                            We will contact you soon, stay alert !!!
+                                            <br />
+                                            <a href="#">scgcc@info.com</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                    <!-- Submit Button-->
+
+                                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                                    </form>
                             </div>
-                            
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="phone:required">A password  is required.</div>
-                            </div>
-
-                            <!-- Submit success message-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    We will contact you soon, stay alert !!!
-                                    <br />
-                                    <a href="#">scgcc@info.com</a>
-                                </div>
-                            </div>
-
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                        </div>
+                        
                         <!-------------------------//-->
                     </div>
                 </div>
             </div>
         </section>
         
+        <section class="page-section pt-3" id="services align-items-center">
+            
+        </section>
+        
+
+
         <!-- Footer-->
         <footer class="footer py-4 bg-dark">
             <div class="container">
