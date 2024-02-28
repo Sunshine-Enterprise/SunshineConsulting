@@ -133,7 +133,7 @@
                                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                                     <!-- Submit Button-->
 
-                                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                                    <a href="admin"><div class="d-grid"> <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div></a>
                                     </form>
                             </div>
                         </div>

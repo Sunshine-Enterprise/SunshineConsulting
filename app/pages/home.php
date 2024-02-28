@@ -13,9 +13,30 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <link href="<?php ?>/css/styles.css" rel="stylesheet" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--Google Fonts--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+
+        <!--
+        <link href="<?php ?>/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="<?php ?>/css/owl.theme.default.min.css" rel="stylesheet" />
+        -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
+
+
+
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     </head>
 
     <!------------
@@ -33,7 +54,6 @@
 
     Gallery industries slides
 
-
     clients to the bottom (slides)
 
     Company Solutions (Remove home page)
@@ -49,67 +69,80 @@
 
     -------------->
 
-
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="home">SCGCC</a>
-                
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
-                    </ul>
-                  </div>
+               <!-- <a class="navbar-brand" href="home">SCGCC</a> -->
+                <img class="img-fluid rounded-4" src="assets/logo-sec2.png" alt="logo-scgcc" id="logo-sec" />
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     
                     <span class="navbar-toggler-icon"></span></button>
+
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="register">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team">Contact Us</a></li>
                        <!-- <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li> -->
                         <!--<li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>-->
-                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
                     </ul>
 
                 </div>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="login" class="text-dark">Login</a></li>
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="register" class="text-dark">Register</a></li>
+
+                        <li class="nav-item rounded m-1 text-center">
+                            <button type="button" class="btn btn-primary"><a href="login" class="text-dark">Login</a></button>
+                        </li>
+                        
+                        <li class="nav-item bg-warning rounded m-1 text-center">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Language
+                                </button>
+                                <ul class="dropdown-menu">
+                                <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
+                                <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100 py-5">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-12 align-self-end">
-                        <h1 class="text-white font-weight-bold" id="shadow">Sunshine Enterprise Consulting</h1>
-                        <h3 class="text-white fst-italic fs-5 pt-3" id="shadow">Expert Solutions for Dubai and US Market </h3>
-                        <hr class="divider divider-light" />
-                        <a class="btn btn-primary btn-xl px-5" href="#contact" id="markets">Work with us</a>
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                    </div>
+       
+
+<!----------------------------------->
+
+        <section id="video-dubai">
+
+                <div class="texture">
+
                 </div>
-            </div>
-        </header>
+    
+                <video id="dubai" class="object-fit-cover" autoplay loop muted>
+                    <source src="assets/uae.mp4" type="video/mp4">
+                </video>
 
+                <div class="caption">
+                    <h1 id="shadow">Sunshine Enterprise Consulting</h1>
+                    <p id="shadow-1">Premier recruitment and project management consultancy</p>
+                        <div class="box">
+                            <button class="call-action" id="call-action" type="button" >Know More</button>
+                            <button class="call-action" id="call-action" type="button">Work with us</button>
+                        </div>
+                </div>
+                                
+        </section>
 
-        
-        
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
+        <section class="page-section bg-light pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -121,103 +154,93 @@
             </div>
         </section>
 
-
-
-                   
-        <!-- Services-->
-        <section class="page-section pt-3" id="services">
-            <div class="container px-4 px-lg-5">
-               <div class="text-center fw-bold display-3">Services</div>
-
-               <div class="owl-carousel owl-theme">
-                    <div class="item">
-                            <div class="card">
-                                <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
-                                <div class="card-body">
-                                    <div class="card-title">
-                                        Card Numer 1
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                    
-            </div>
-        </section>
-
-
  <!----------------------------------------------------------->
- 
- 
-        <section class="page-section pt-3" id="services">
+
+<section class="page-section pt-3" id="services">
             <div class="container px-4 px-lg-5">
                
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
+                    <div class="col-lg-12 col-md-12 col-12 text-center">
                         <!-- <a class="portfolio-box" >-->
-                        <a href="services" title="Construction Service">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">Construction</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                   
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services" title="Construction Service">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">Energy</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services" title="Construction Service">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">Hospitality</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services" title="Construction Service">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">Healthcare</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
-                    </div>
+                            
+                    <div class="owl-carousel owl-theme">
 
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services" title="Construction Service">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/10.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">Education</h3>
-                            <div class="overlay"></div>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-6"></div>
                         </div>
-                        </a>
+
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">Construction</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">Energy</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">Hospitality</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">Healthcare</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">I.T</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="item">
+                            <a href="services" title="">
+                                <div class="card_services mt-5 rounded-4">
+                                    <img class="img-fluid rounded-4" src="assets/10.png" alt="..." />
+                                    <h3 class="h5 mb-2 py-2 text-dark">Education</h3>
+                                    <div class="overlay"></div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services" title="Construction Service">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">I.T</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
+
+                        
+
                     </div>
                 </div>
+                
             </div>
         </section>
-
-<!--------------------------------------------------------------->
+ 
+ 
+ 
     <section class="page-section text-white py-1 mb-5">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">Some of our clients</h2>
@@ -299,7 +322,6 @@
 
 
 <section class="page-section pt-5 pb-2" id="about">
-            <div class="container">
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/publicSec.png" alt="..." id="solutions-img"/></div>
@@ -741,5 +763,44 @@
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <!--Jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <!-- Owl Carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <!-- custom JS code after importing jquery and owl -->
+        <script type="text/javascript">
+            
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:4,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true
+        });
+        $('.play').on('click',function(){
+            owl.trigger('play.owl.autoplay',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('stop.owl.autoplay')
+        });
+        
+
+        owl.on('mousewheel', '.owl-stage', function (e) {
+            if (e.deltaY>0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
+
+
+        </script>
+        
+
     </body>
 </html>
