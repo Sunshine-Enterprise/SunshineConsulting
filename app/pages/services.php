@@ -11,49 +11,81 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="<?php ?>/css/styles.css" rel="stylesheet" />
+
+        <!--Google Fonts--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+        <!--
+        <link href="<?php ?>/css/owl.carousel.min.css" rel="stylesheet" />
+        <link href="<?php ?>/css/owl.theme.default.min.css" rel="stylesheet" />
+        -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
 
     </head>
 
     <body id="page-top">
+    
+    <div class="loader">
+    </div>
+    
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="home">SCGCC</a>
-
-                <div class="dropdown">
-                    
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                    </button>
-
-                    <ul class="dropdown-menu">
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
-                    </ul>
-
-                </div>
+               <!-- <a class="navbar-brand" href="home">SCGCC</a> -->
+               <a href="home">
+                   <img class="img-fluid rounded-4" src="assets/logo-sec2.png" alt="logo-scgcc" id="logo-sec" />
+                </a>
 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-                
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>
-                    </ul>
-                </div>
+                    
+                    <span class="navbar-toggler-icon"></span></button>
+
 
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+                    
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="login" class="text-dark">Login</a></li>
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="register" class="text-dark">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team">Contact Us</a></li>
+                       <!-- <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li> -->
+                        <!--<li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>-->
+                    </ul>
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+
+                        <li class="nav-item rounded m-1 text-center">
+                            <button type="button" class="btn btn-primary"><a href="login" class="text-dark">Login</a></button>
+                        </li>
+                        
+                        <li class="nav-item bg-warning rounded m-1 text-center">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Language
+                                </button>
+                                <ul class="dropdown-menu">
+                                <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
+                                <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"></li>
                     </ul>
                 </div>
-
             </div>
         </nav>
 

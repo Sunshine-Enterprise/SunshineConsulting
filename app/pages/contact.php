@@ -59,7 +59,7 @@
                         <li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="team">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
                        <!-- <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li> -->
                         <!--<li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>-->
                     </ul>
@@ -101,125 +101,170 @@
             </div>
         </header>
 
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
+
+        <!-- Team-->
+        <section class="page-section bg-white masthead pb-2 pt-5" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="section-heading fw-bold" id="shadow-1">Our Amazing Team</h2>
-                        <p class="fst-italic fst-italic text-secondary">We strive to be the premier national business solution for our clients, associates and business partners.</p>
-                        <hr class="divider" />
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Contact Us</h2>
+                    <p class="fst-italic fst-italic text-secondary">We strive to be the premier national business solution for our clients, associates and business partners.</p>
+
+                    <hr class="divider" />       
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Contact-->
+        <section class="py-3" >
+            <div class="container px-4 px-lg-5">
+
+                <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">First Name</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">First name is required.</div>
+                            </div>
+                        </div>    
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1  text-center">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Last Name</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">Last name is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback text-start" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                        </div>    
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1  text-center">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 text-center py-1">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 px-1 text-center">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback text-start" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-12 text-center py-2">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-1 text-center">
+
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    We will contact you soon, stay alert !!!
+                                    <br />
+                                    <a href="#">scgcc@info.com</a>
+                                </div>
+                            </div>
+                             <!-- Submit error message-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+
+                        </div>    
+                    </div>
+                </div>
+
+
+
+                </form>
+                </div>
+                </div>
+            </div>
+        </section>
+
+<!------------------------------------------------->
+        <!-- Team-->
+
+
+        <div class="container-fluid bg-light"></div>
+    <section class="page-section bg-dark masthead py-5 pb-3" id="about">
+        <h2 class="section-heading text-uppercase fw-bold text-light text-center pt-4 my-0" id="shadow-1">Find Us</h2>
+        <p class="pb-4 pt-2 mb-0 text-center text-light fst-italic">Send us a messages and we will get back to you as soon as possible!</p>
+        <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                       
+                    </div>
+                </div>
+
+                <div class="container-fluid px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <div class="row text-center">
+                        <div class="col-lg-6 col-6">
+                            <div class="text-center text-light">                              
+                                <h4 id="phone">+971 4 (242) 9822</h4>
+                                <p class="fw-bold text-white">Dubai</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="text-center text-light">
+                                <h4 id="phone">+1 (407) 636-2982</h4>
+                                <p class="fw-bold text-white">United States</p>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9597848676813!2d55.14060967599416!3d25.06935213686593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6cb347c3947b%3A0x2631d925145d23ed!2sTrack24%20-%20Gold%20Tower%20-%20Cluster%20I%20-%20JLT!5e0!3m2!1sen!2sus!4v1706819788010!5m2!1sen!2sus"
+                            width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 text-center">
+                    </div>
+                </div>
+
+                <!--
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+
+                       
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
+                        <h4 class="fst-italic fw-bold" id="shadow-1">Dubai: +1 (555) 123-4567 </h4>
+                        <h4 class="fst-italic fw-bold" id="shadow-1">United States: +1 (555) 123-4567 </h4>
                         
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Team-->
-        <section class="page-section bg-light pt-2" id="team">
-            <div class="container">
-                <div class="text-center mb-5"></div>
-
-                <div class="row mb-5">
-                    <div class="col-lg-6">
-                        <div class="row">
-                                <div class="col-lg-6 text-center">
-                                    <button class="btn btn-primary" id="fabiana" data-bs-target="#Fabiana" data-bs-toggle="modal">
-                                    </button>
-                                    <h4 class="fw-bold pt-3">Fabiana Mennella</h4>
-                                    <p class="text-muted">Director of Sales</p>
-                                </div>
-
-                                <div class="col-lg-6 text-center">
-                                    <button class="btn btn-primary" id="sam" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
-                                    </button>
-                                    <h4 class="fw-bold pt-3">Sam Fargalla</h4>
-                                    <p class="text-muted">Founder / CEO</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="row">
-                                <div class="col-lg-6 text-center">
-                                    <button class="btn btn-primary" id="rania" data-bs-target="#Rania" data-bs-toggle="modal">
-                                    </button>
-
-                                    <h4 class="fw-bold pt-3">Rania Hanna</h4>
-                                    <p class="text-muted">President/ Founder</p>                
-                                </div>
-                               
-                               
-                                <div class="col-lg-6 text-center">
-                                    <button class="btn btn-primary" id="jey" data-bs-target="#Jey" data-bs-toggle="modal">
-                                    </button>
-
-                                    <h4 class="fw-bold pt-3">Jey Gunaratnam</h4>
-                                    <p class="text-muted">Director of Business Development</p>                
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        <!------------------------------------------->
-
-        <div class="container">
-
-            <div class="col-12 text-center pb-5">
-                <hr class="divider" />     
-                <h2 class="section-heading fw-bold py-3" id="shadow-1">The Sunshine Group</h2>
-                <p class="fst-italic fst-italic text-secondary col-md-6 offset-md-3 lh-lg">
-                Sunshine virtually operates worldwide thanks to the corporate office in Florida (USA),
-                the Dubai branch, and a global network of local partners that allow timely and smoothly
-                operations in full conformity with local laws and regulations.  
-                </p>
-            </div>
-
-
-            <div class="row">
-            
-            <div class="col-lg-3 col-sm-6 my-lg-0 my-3">
-                <div class="counter-content text-center bg-light py-4 rounded">
-                <i class="bi bi-person-circle text-warning h1"></i>
-                <span class="counter my-2 d-block" data-count="241">+250</span>
-                <h5>Total Headcount</h5>
+                -->
                 
-                </div>
             </div>
-            
-            <div class="col-lg-3 col-sm-6 my-lg-0 my-3">
-                <div class="counter-content text-center bg-light py-4 rounded">
-                <i class="bi bi-people-fill text-warning h1"></i>
-                <span class="counter my-2 d-block" data-count="5">+30</span>
-                <h5>Direct Employees</h5>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 col-sm-6 my-lg-0 my-3">
-                <div class="counter-content text-center bg-light py-4 rounded">
-                <i class="bi bi-signpost-2-fill text-warning h1"></i>
-                <span class="counter my-2 d-block" data-count="5">+220</span>
-                <h5>Sectors</h5>
-                </div>
-            </div>
-            
-            <div class="col-lg-3 col-sm-6 my-lg-0 my-3">
-                <div class="counter-content text-center bg-light py-4 rounded">
-                <i class="bi bi-diagram-3-fill text-warning h1"></i>
-            <!--<i class="fa fa-smile-o d-block"></i>-->
-                <span class="counter my-2 d-block">+2000</span>
-                <h5>External Technicians</h5>
-                </div>
-            </div>
-            
-            </div>
-        </div>
-        
         </section>
-        <!-- Team-->
+
 
 
 
