@@ -142,8 +142,8 @@
                     <h1 id="shadow">Sunshine Enterprise Consulting</h1>
                     <p id="shadow-1">Premier Recruitment and Project Management Consultancy</p>
                         <div class="box">
-                            <button class="call-action" id="call-action" type="button" >
-                            <a href="contact">
+                            <button class="call-action" type="button" >
+                            <a href="services">
                                 Services
                             </a>    
                             </button>
@@ -249,14 +249,14 @@
                     
                     <div class="slider">
 
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme" id='brands'>
 
                             <div class="slider-card text-center">
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/dubai-9.jpg" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Construction Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">Construction and Engineering</a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Construction and Engineering</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
 
                             </div> 
 
@@ -265,8 +265,8 @@
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/energy.jpg" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Energy Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">O&G, Water and Energy</a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">O&G, Water and Energy</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
 
                             </div>   
 
@@ -274,8 +274,8 @@
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/4.png" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Services Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">Hospitality</a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Hospitality</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
                             </div>   
 
 
@@ -283,8 +283,8 @@
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/5.png" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Energy Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">Healthcare and Medicine</a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Healthcare and Medicine</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
                             </div>   
 
 
@@ -292,16 +292,16 @@
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/9.png" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Service Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">Information Technology </a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Information Technology</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
                             </div>   
 
                             <div class="slider-card text-center">
                                 <div class="d-flex justify-content-center align-items-center md-4">
                                     <img class="img-fluid" src="assets/10.png" alt="..." />
                                 </div>
-                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Service Sector</h5>
-                                <a href="#" class="btn btn-primary text-center mb-3">Educational Services</a>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">Educational Services</h5>
+                                <button type="button" class="read_more mb-3 text-center ">Know More</button>
                             </div>   
                             
                         </div>
@@ -313,76 +313,211 @@
         </section>
 
 
+
 <!---------------------------------------------------->
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
-                    <div class="container px-4 px-lg-5">
-                        <div class="row gx-4 gx-lg-5 justify-content-center">
-                            <div class="col-lg-8 text-center">
-                                <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">SERVICES</h2>
-                                <hr class="divider" />       
+
+<section class="page-section text-white py-5 mb-5 bg-light">
+        <div class="container px-4 px-lg-5 text-center ">
+
+        <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">Be part of us</h2>
+        <hr class="divider mb-3" />
+
+            <div class="row">
+                <div class="col-6">
+                <!---------------------------->
+
+                <div class="our_solution_category">
+                    <div class="solution_cards_box">
+                        <div class="solution_card">
+                                
+                            <div class="hover_color_bubble"></div>
+                                <div class="so_top_icon">
+                                    <img class="img-fluid rounded-4" src="assets/logo-sec2.png" alt="logo-scgcc" id="logo-sec" />
+                                </div>
+
+                            <div class="solu_title">
+                                <h3>Join us as a Freelancer Recruiter</h3>
+                            </div>
+                            
+                            <div class="solu_description">
+                                <p>
+                                Join our team as a recruiter and collaborate with us to identify and secure exciting career opportunities for talented individuals.
+                                </p>
+                                <button type="button" class="read_more_btn">Apply Now</button>
+                            </div>
+
+                        </div>
+                    </div>                
+                </div>
+
+                <!---------------------------->
+            </div>
+            
+            <div class="col-6">
+                    <!---------------------------->
+        
+                    <div class="our_solution_category">
+                        <div class="solution_cards_box">
+                            <div class="solution_card">
+                                    
+                                <div class="hover_color_bubble"></div>
+                                    <div class="so_top_icon">
+                                        <img class="img-fluid rounded-4" src="assets/logo-sec2.png" alt="logo-scgcc" id="logo-sec" />
+                                    </div>
+        
+                                <div class="solu_title">
+                                    <h3>Work with us</h3>
+                                </div>
+                                
+                                <div class="solu_description">
+                                    <p>
+                                    Send us your resume and we can help you find a job that best suits your skills, experience, and aspirations.
+                                    </p>
+                                    <button type="button" class="read_more_btn">Apply Now</button>
+                                </div>
+        
+                            </div>
+                        </div>                
+                    </div>
+        
+                    <!---------------------------->
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+                   
+        </div>
+    </section>
+<!---------------------------------------------------->
+
+        <section class="page-section masthead pb-2 pt-1" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">SERVICES</h2>
+                        <hr class="divider" />       
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="page-section py-5" id="services">
-                    <div class="container">
-                        <div class="row text-center">
-
-                     <div class="col-md-2 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-person-circle h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">Temporary Staffing</h4>
-                        </a>
-                    </div>
-
-                    <div class="col-md-2 col-6 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-diagram-3-fill h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">Direct Placement</h4>
-                        </a>    
-                    </div>
-
-
-                    <div class="col-md-4 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-search h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">Executive Search</h4>
-                        </a>
-                    </div>
+        <section class="masthead">
+            <div class="container px-4 px-lg-5" >
                     
-                    <div class="col-md-2 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-bar-chart-fill h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">Managed Services</h4>
-                        </a>
-                    </div>
+                <div class="slider">
 
-                    <div class="col-md-2 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
+                    <div class="owl-carousel owl-theme" id='services-carousel'>
+                        <div class="slider-card-service text-center">
                             <span class="fa-stack fa-4x">
-                            <i class="bi bi-bar-chart-fill h1 text-warning"></i>
+                            <i class="bi bi-diagram-3-fill h1 text-warning pt-5" id="icon-service"></i>
                             </span>
-                            <h4 class="my-3">Project Management</h4>
-                        </a>
+                            <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="title-card-service">Temporary Staffing</h5>
+                            </div> 
+
+
+                        <div class="slider-card-service text-center">
+                            <span class="fa-stack fa-4x">
+                            <i class="bi bi-person-circle h1 text-warning" id="icon-service"></i>
+                            </span>
+                            <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="title-card-service">Direct Placement</h5>
+
+                        </div>   
+
+                        <div class="slider-card-service text-center">
+                            <span class="fa-stack fa-4x">
+                            <i class="bi bi-search h1 text-warning" id="icon-service"></i>
+                            </span>
+                            <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="title-card-service">Executive Search</h5>
+                        </div>   
+
+
+                        <div class="slider-card-service text-center">
+                            <span class="fa-stack fa-4x">
+                            <i class="bi bi-bar-chart-fill h1 text-warning" id="icon-service"></i>
+                            </span>
+                            <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="title-card-service">Management Services</h5>
+                        </div>   
+
+
+                        <div class="slider-card-service text-center">
+                            <span class="fa-stack fa-4x">
+                            <i class="bi bi-file-earmark-bar-graph h1 text-warning" id="icon-service"></i>
+                            </span>
+                            <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="title-card-service">Project Management</h5>
+                        </div>   
+
+                            
                     </div>
-                    
 
                 </div>
+
+
             </div>
         </section>
-
 <!---------------------------------------------------->
  
- 
+ <!---------------------------------------------------->
+
+<section class="page-section text-white py-5 mb-5 bg-light">
+	<div class="container">
+		<div class="row justify-content-center text-center mb-3">
+			<div class="col-lg-8 col-xl-7">
+                <h2 class="section-heading text-uppercase fw-bold text-dark mb-4" id="shadow-1">Opportunities</h2>
+                <hr class="divider mb-3" />
+
+			</div>
+		</div>
+		<div class="row g-4 g-md-5 pt-5">
+			<div class="col-md-6">
+				<div class="d-flex">
+					<div class="text-primary me-4">
+                        <i class="fa fa-users text-warning" aria-hidden="true"></i>
+					</div>
+					<div>
+						<h5 class="mb-2 mb-lg-3 fw-bold text-dark">Freelancer Opportunities</h5>
+						<p class="text-secondary">We value quality over quantity.  All recruiters are professionally trained on how to conduct an extensive assessment process, assuring you are only presented the most suitable resources.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex">
+					<div class="text-primary me-4 rounded">
+                        <i class="fa fa-users text-warning" aria-hidden="true"></i>
+					</div>
+					<div>
+                    <h5 class="mb-2 mb-lg-3 fw-bold text-dark">Business partnering approach</h5>
+						<p class="text-secondary">Our personalized approach to search is one of true partnership, where we value the importance of establishing trusted long-term relationships and being able to tell your company story.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex">
+					<div class="text-primary me-4">
+                    <i class="fa fa-users text-warning" aria-hidden="true"></i>
+					</div>
+					<div>
+                    <h5 class="mb-2 mb-lg-3 fw-bold text-dark">Dedicated recruiters</h5>
+						<p class="text-secondary">Our specialized recruiters conduct 3 - 5 searches at a time to assure that each assignment is executed with excellent quality, quick turnaround, and unyielding focus.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex">
+					<div class="text-primary me-4">
+                    <i class="fa fa-users text-warning" aria-hidden="true"></i>
+					</div>
+					<div>
+                    <h5 class="mb-2 mb-lg-3 fw-bold text-dark">International Opportunities</h5>
+						<p class="text-secondary">Our Group structure and international network of partners allow us to source talents worldwide thanks to experienced recruiters with deep industry and local market knowledge.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---------------------------------------------------->
  
     <section class="page-section text-white py-1 mb-5">
         <div class="container px-4 px-lg-5 text-center">

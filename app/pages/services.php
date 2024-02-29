@@ -101,203 +101,193 @@
             </div>
         </header>
 
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
+        <section class="page-section masthead pb-2 pt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="section-heading fw-bold" id="shadow-1">Sunshine Consulting Services</h2>
-                        <p class="fst-italic fst-italic text-secondary pt-3">SEC is specialized in providing a wide variety of temporary, contract, and permanent staffing and recruitment solutions for multinational companies, SMEs and Government entities from entry to executive-level positions.</p>
                         
+                        <hr class="divider" />
+
+                        <p class="fst-italic fst-italic text-secondary pt-3">SEC is specialized in providing a wide variety of temporary, contract, and permanent staffing and recruitment solutions for multinational companies, SMEs and Government entities from entry to executive-level positions.</p>
+                        <h2 class="pb-2 border-bottom"><h2>
+
                     </div>
                 </div>
             </div>
         </section>
                 
-        <div class="container px-4 pt-5 pb-0">
+        <div class="container px-4 pt-2 pb-0">
 
-        <h2 class="fw-bold text-body-emphasis text-center">SEC Overview</h2>
-        <h2 class="pb-2 border-bottom"><h2>
 
-        <hr class="divider" />
         <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1"></h2>
 
 
-    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
-      <div class="col d-flex flex-column align-items-start gap-2">
-        <p class="text-body-secondary">The Sunshine Group has established a regional branch based in Dubai, Sunshine Enterprise Consulting (SEC).</p>
-        <a href="home#contact" class="btn btn-primary btn-lg">Contact us</a>
-      </div>
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 pb-5 mb-3">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <!--d-flex flex-column align-items-start gap-2---->
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="assets/direction.jpg" alt="card image"></p>
+                                    <h4 class="card-title" id="card-service-title">Temporary Staffing</h4>
+                                    <a href="#" class="btn btn-primary text-center w-100 mt-3" id="card-button">Know more</a>
 
-      <div class="col">
-
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#collection"></use>
-              </svg>
-            </div>
-
-            <!--------------->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis h5">Temporary Staffing </h4>
-                </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" style="text-align: center; !important;">We provide skilled temporary employees to meet short-term staffing needs, helping businesses manage workload fluctuations and maintain productivity.</div>
-                </div>
-            </div>
-            
-            </div>
-            <!--------------->
-          </div>
-
-          <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#gear-fill"></use>
-              </svg>
-            </div>
-            <!------------------------------------------------------->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis h5">Direct Placement</h4>
-                </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" style="text-align: center; !important;">Our expert recruiters identify and screen top talents for permanent positions, ensuring a perfect match between candidates and organizations.</div>
-                </div>
-            </div>
-
-            </div>
-            <!------------------------------------------------------->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Temporary Staffing</h4>
+                                    <p class="card-text">We provide skilled temporary employees to meet short-term staffing needs, helping businesses manage workload fluctuations and maintain productivity.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            <!------>  
         </div>
         
-        <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#speedometer"></use>
-                </svg>
-            </div>
-            <!------------------------------------------------------->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <!------>
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="assets/direction.jpg" alt="card image"></p>
+                                    <h4 class="card-title" id="card-service-title">Direct Placement</h4>
+                                    <a href="#" class="btn btn-primary text-center w-100 mt-3" id="card-button">Know more</a>
 
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis h5">Executive Search</h4>
-                </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" style="text-align: center; !important;">We specialize in finding high-level executives and senior positions who will drive business success for our clients.</div>
-                </div>
-            </div>
-
-            </div>
-            <!------------------------------------------------------->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Direct Placement</h4>
+                                    <p class="card-text">Our expert recruiters identify and screen top talents for permanent positions, ensuring a perfect match between candidates and organizations.</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            <!------>  
         </div>
-        
-        <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                <svg class="bi" width="1em" height="1em">
-                    <use xlink:href="#table"></use>
-                </svg>
-            </div>
-            <!------------------------------------------------------->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <!------>
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="assets/direction.jpg" alt="card image"></p>
+                                    <h4 class="card-title" id="card-service-title">Executive Search</h4>
+                                    <a href="#" class="btn btn-primary text-center w-100 mt-3" id="card-button">Know more</a>
 
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <h4 class="fw-semibold mb-0 text-body-emphasis h5">Managed Services</h4>
-                </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" style="text-align: center; !important;">We offer comprehensive solutions to manage entire recruitment processes, from sourcing to onboarding, 
-                    saving time and resources for our clients. <!-- as well as to handle resources’ visa, payroll, and associated benefits on behalf of our customers. --></div>
-                </div>
-            </div>
-
-            </div>
-            <!------------------------------------------------------->
-          </div>
-
-
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Executive Search</h4>
+                                    <p class="card-text">We specialize in finding high-level executives and senior positions who will drive business success for our clients.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            <!------>  
         </div>
-      </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <!------>
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="assets/direction.jpg" alt="card image"></p>
+                                    <h4 class="card-title" id="card-service-title">Managed Services</h4>
+                                    <a href="#" class="btn btn-primary text-center w-100 mt-3" id="card-button">Know more</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Sunlimetech</h4>
+                                    <p class="card-text">We offer comprehensive solutions to manage entire recruitment processes, from sourcing to onboarding, saving time and resources for our clients. </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            <!------>  
+        </div>
+
+
+
+
     </div>
-  </div>
+    </div>
 
 
-        <h2 class="fw-bold text-body-emphasis text-center"> Areas: </h2>
-
+        <h2 class="fw-bold text-body-emphasis text-center mt-3"> Areas: </h2>
         <hr class="divider" />
-        <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1"></h2>
 
         <!-- Gallery-->
-        <div id="portfolio" class="mb-5">
-                    <div class="container p-0">
-                        <div class="row g-0">
-                        <div class="col-lg-4 col-sm-6 p-2">
-                            <a class="portfolio-box" href="assets/2.png" title="Construction Service">
-                                <img class="img-fluid" src="assets/2.png" alt="..." />
-                                <div class="portfolio-box-caption bg-light rounded-bottom">
-                                <div class="project-name text-center text-secondary py-2">Construction</div>
+
+        <!-- Team-->
+        <section class="page-section bg-gray pt-2" id="team">
+            <div class="container">
+                <section class="page-section masthead pb-2 pt-2" id="about">
+                    <div class="container px-4 px-lg-5">
+
+                        <div class="row justify-content-center" >
+                            
+                            <div class="col-lg-2 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg text-center"> <i class="fa fa-cogs"> </i> Construction</p>
                             </div>
-                            </a>
+
+                            <div class="col-lg-2 col-md-3 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg text-center"> <i class="fa fa-wrench"> </i> Engineering</p>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg  text-center"> <i class="fa fa-cutlery"> </i> Hospitality</p>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg text-center"> <i class="fa fa-medkit"> </i> Healthcare</p>
+                            </div>
+                            
+                            <div class="col-lg-2 col-md-3 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg  text-center"> <i class="fa fa-globe"> </i> Energy</p>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-4" id="box-areas">
+                                <p class="btn-areas btn-lg text-center"> <i class="fa fa-laptop"> </i> Technology</p>
+                            </div>
+
+
                         </div>
 
-
-                    <div class="col-lg-4 col-sm-6 p-2">
-                        <a class="portfolio-box" href="assets/energy.jpg" title="Energy Service">
-                            <img class="img-fluid" src="assets/energy.jpg" alt="..." />
-                            <div class="portfolio-box-caption bg-light rounded-bottom">
-                            <div class="project-name text-center text-secondary py-2">Energy</div>
-                            </div>
-                        </a>
+                       
                     </div>
-                    <div class="col-lg-4 col-sm-6 p-2">
-                        <a class="portfolio-box" href="assets/4.png" title="Hospitality Service">
-                            <img class="img-fluid" src="assets/4.png" alt="..." />
-                            <div class="portfolio-box-caption bg-light rounded-bottom">
-                            <div class="project-name text-center text-secondary py-2">Hospitality</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 p-2">
-                        <a class="portfolio-box" href="assets/5.png" title="Healthcare Service">
-                            <img class="img-fluid" src="assets/5.png" alt="..." />
-                            <div class="portfolio-box-caption bg-light rounded-bottom">
-                            <div class="project-name text-center text-secondary py-2">Healthcare</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 p-2">
-                        <a class="portfolio-box" href="assets/10.png" title="Education Service">
-                            <img class="img-fluid" src="assets/10.png" alt="..." />
-                            <div class="portfolio-box-caption bg-light rounded-bottom">
-                                <div class="project-name text-center text-secondary py-2">Education</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 p-2">
-                        <a class="portfolio-box" href="assets/9.png" title="I.T Service">
-                            <img class="img-fluid" src="assets/9.png" alt="..." />
-                            <div class="portfolio-box-caption bg-light rounded-bottom">
-                            <div class="project-name text-center text-secondary py-2">I.T</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                </section>
+                
             </div>
-        </div>
+        </section>
+        
         <!-- Call to action-->
 
 
