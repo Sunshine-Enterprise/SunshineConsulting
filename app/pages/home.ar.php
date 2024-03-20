@@ -1,584 +1,362 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Sunshine Enterprise Consulting</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <link href="<?php ?>/css/styles.css" rel="stylesheet" />
+<?php
+    include '../app/pages/includes/header-ar.php';
+?>
+       
+<!----------------------------------------------------------->
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="home">SCGCC</a>
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Language
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home">English</a></button></li>
-                      <li><button class="dropdown-item fw-medium" type="button"><a href="home.ar">Arabic</a></button></li>
-                    </ul>
-                  </div>
+        <section id="video-dubai">
+                <div class="texture"></div>
+    
+                <video id="dubai" class="object-fit-cover" autoplay loop muted>
+                    <source src="assets/uae-4.mp4" type="video/mp4">
+                </video>
 
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                    <span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="jobs">Jobs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
-                    </ul>
-
-                </div>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="login" class="text-dark">Login</a></li>
-                        <li class="nav-item bg-warning rounded m-1 p-2 text-center"><a class="nav-link" href="register" class="text-dark">Register</a></li>
-                        <li class="nav-item"></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100 py-5">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-12 align-self-end">
-                        <h1 class="text-white font-weight-bold" id="shadow">صن شاين لاستشارات المؤسسات</h1>
-                        <h3 class="text-white fst-italic fs-5 pt-3" id="shadow">حلول الخبراء لدبي</h3>
-                        <hr class="divider divider-light" />
-                        <a class="btn btn-primary btn-xl px-5" id="markets">سوق دبي</a>
-                        
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
+                <div class="caption"><br>
+                    <h1 id="shadow display-1 pyd-3" style="font-size: 6.5em;">صن شاين لاستشارات المؤسسات</h1>
+                    <p id="shadow-1" class="subtitle-background">بريميير للتوظيف واستشارات إدارة المشاريع</p>
+                    <div class="box">
+                        <!--<button class="call-action" type="button" >
+                        <a href="services">
+                            Services
+                        </a>    
+                        </button> -->
+                        <button type="button" class="read_more mb-3 text-center shadow">
+                            <a href="contact" class="text-secondary">
+                                تعرف أكثر   
+                            </a>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </header>
+                                
+        </section>
+        
+<!----------------------------------------------------------->
 
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
+        <section class="page-section bg-white pb-0 pt-5 mt-5" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">الصناعات</h2>
+                    <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">الصناعات</h2>
+                        <p></p>
                         <hr class="divider" />
                         
                     </div>
                 </div>
             </div>
         </section>
-                   
-        <!-- Services-->
-        <section class="page-section pt-3" id="services">
+
+ <!----------------------------------------------------------->
+
+
+        <section class="masthead pb-5">
+                <div class="container px-4 px-lg-5 pb-4" >
+                    
+                    <div class="slider">
+
+                        <div class="owl-carousel owl-theme" id='brands'>
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/construction.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">البناء والهندسة</h5>
+                                
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                        خدمات   
+                                </button>
+                                </a>
+                                
+                            </div> 
+
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/oil.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">النفط والغاز </h5>
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات
+                                </button>
+                                </a>
+
+                            </div>   
+                            
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/water.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">المياه والطاقة</h5>
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات   
+                                </button>
+                                </a>
+
+                            </div>   
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/hospitality.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">ضيافة</h5>
+                                <a href="projects">
+
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات
+                                </button>
+                                </a>
+                            </div>   
+
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/5.png" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">الرعاية الصحية والطب</h5>
+                                <a href="projects">
+                                
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات   
+                                </button>
+                                </a>
+                            </div>   
+
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/9.png" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">تكنولوجيا المعلومات</h5>
+                                <a href="projects">
+                                
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات   
+                                </button>
+                                </a>
+                            </div>   
+
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/10.png" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">خدمات تعليمية</h5>
+                                
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات   
+                                </button>
+                                </a>
+                            </div>   
+                            
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/aviation.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">طيران</h5>
+                                
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                     خدمات
+                                </button>
+                                </a>
+                            </div>   
+                            
+                            <div class="slider-card text-center">
+                                <div class="d-flex justify-content-center align-items-center md-4">
+                                    <img class="img-fluid" src="assets/infraestructure.jpg" alt="..." />
+                                </div>
+                                <h5 class="text-center py-3 fw-bold text-dark" id="title-card">بنية تحتية</h5>
+                                
+                                <a href="projects">
+                                <button type="button" class="read_more mb-3 text-center ">
+                                    خدمات
+                                </button>
+                                </a>
+                            </div>   
+                            
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+<!----------------------------------------------------------->
+
+        <section class="page-section masthead pt-2">
             <div class="container px-4 px-lg-5">
-               
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <a href="services">
-                            <div class="card_services mt-5 bg-secondary rounded-4">
-                                <img class="img-fluid rounded-4" src="assets/2.png" alt="..." />
-                                <h3 class="h5 mb-2 py-2 text-light">بناء</h3>
-                                <div class="overlay"></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/energy.jpg" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">طاقة</h3>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/4.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">ضيافة</h3>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/5.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">الرعاىة الصحية</h3>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/10.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">تعليم</h3>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-6 text-center">
-                        <div class="card_services mt-5 bg-secondary rounded-4">
-                            <img class="img-fluid rounded-4" src="assets/9.png" alt="..." />
-                            <h3 class="h5 mb-2 py-2 text-light">غرض</h3>
-                            <div class="overlay"></div>
-                        </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">خدمات</h2>
+                        <hr class="divider" />       
                     </div>
                 </div>
             </div>
         </section>
-        <!--------------------------------------------------------------->
 
-    <section class="page-section text-white py-1 mb-5">
+<!----------------------------------------------------------->
+
+        <section class="masthead mb-5">
+            <div class="container px-4 px-lg-5 pb-5" >
+                    
+                <div class="slider pb-5">
+
+                    <div class="owl-carousel owl-theme" >
+
+                        <div class="text-center">
+                            <a href="temporary-staffing">
+                                <span class="fa-stack fa-4x">
+                                    <i class="bi bi-diagram-3-fill text-warning " id=""></i>
+                                </span>
+                                <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="">التوظيف المؤقت</h5>
+                            </a>
+                        </div> 
+                        
+                        <div class="text-center">
+                            <a href="projects">
+                                <span class="fa-stack fa-4x">
+                                    <i class="bi bi-file-earmark-bar-graph text-warning " id=""></i>
+                                </span>
+                                <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="">ادارة مشروع</h5>
+                            </a>
+                        </div> 
+                        
+                        <div class="text-center">
+                            <a href="direct-placement">
+                                <span class="fa-stack fa-4x">
+                                    <i class="bi bi-person-circle text-warning " id=""></i>
+                                </span>
+                                <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="">التنسيب المباشر</h5>
+                            </a>
+                        </div> 
+                        
+                        <div class="text-center">
+                            <a href="executive-search">
+                                <span class="fa-stack fa-4x">
+                                    <i class="bi bi-search text-warning " id=""></i>
+                                </span>
+                                <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="">البحث التنفيذي</h5>
+                            </a>
+                        </div> 
+                        
+                        <div class="text-center">
+                            <a href="management-services">
+                                <span class="fa-stack fa-4x">
+                                    <i class="bi bi-bar-chart-fill text-warning " id=""></i>
+                                </span>
+                                <h5 class="text-center pb-3 fw-bold text-dark pt-0" id="">خدمة إدارة</h5>
+                            </a>
+                        </div>  
+                            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!---------------------------------------------------->
+ 
+    <section class="page-section text-white py-1 mb-0 mt-5">
         <div class="container px-4 px-lg-5 text-center">
             <h2 class="section-heading text-uppercase fw-bold text-dark " id="shadow-1">بعض عملائنا</h2>
             <hr class="divider mb-3" />
             <!--<a class="btn btn-light btn-xl" href="#contact">contact us</a>-->
         </div>
     </section>
-         <!-- Clients-->
-         <div class="pb-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://aecom.com/">
-                            <img class="img-fluid" src="assets/aecom.png" alt="..." />
-                            </a>
+
+
+    <section class="page-section text-white py-1 mb-5">
+        <div class="container px-4 px-lg-5 text-center">
+            <!---CAROUSEL--->
+            <div class="owl-carousel owl-theme">
+
+
+                <div class="item">
+                    <a href="https://www.cemex.com/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-2.png" alt="..." />
                         </div>
-                    
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.bechtel.com/">
-                            <img class="img-fluid" src="assets/bechtel.png" alt="..." />
-                            </a>
-                        </div>
-                    
-                        <div class="col-md-3 col-6  my-3 text-center">
-                            <a href="https://www.cemex.com/">
-                                <img class="img-fluid" src="assets/cemex.png" alt="..." />
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.turnerconstruction.com/">
-                                <img class="img-fluid" src="assets/turner.jpg" alt="..." />
-                            </a>
-                        </div>
-                        
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.parsons.com/">
-                                <img class="img-fluid" src="assets/parsons.png" alt="..." />
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.kbr.com/en">
-                                <img class="img-fluid" src="assets/kbr.png" alt="..." />
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.laneconstruct.com/">
-                                <img class="img-fluid" src="assets/lane.png" alt="..." />
-                            </a>
-                        </div>
-                        
-                        <div class="col-md-3 col-6 my-3 text-center">
-                            <a href="https://www.nasa.gov/">
-                                <img class="img-fluid" src="assets/nasa.png" alt="..." />
-                            </a>
-                    </div>
+                    </a>
                 </div>
+
+                <div class="item">
+                    <a href="https://www.laneconstruct.com/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-3.png" alt="..." />
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.parsons.com/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-4.png" alt="..." />
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://aecom.com/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-5.png" alt="..." />
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.nasa.gov/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-6.png" alt="..." />
+                        </div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.bechtel.com/" title="">
+                        <div class="card_services mt-5 rounded-4">
+                            <img id="brand" class="img-fluid rounded-4" src="assets/brand-7.png" alt="..." />
+                        </div>
+                    </a>
+                </div>
+
             </div>
+            <!---CAROUSEL--->
         </div>
-
-<!-------------------------------------------------------------->
-<section class="page-section bg-light masthead pb-2 pt-5" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">خدمات</h2>
-                        <hr class="divider" />       
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="page-section pt-5 pb-4" id="services">
-            <div class="container">
-                <div class="row text-center">
-
-                     <div class="col-md-3 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-person-circle h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">التوظيف المؤقت</h4>
-                        </a>
-                            <p class="text-muted">توفير المهرة</p>
-                    </div>
-
-                    <div class="col-md-3 col-6 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-diagram-3-fill h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">التنسيب المباشر</h4>
-                        </a>    
-                        <p class="text-muted">خبراء التوظيف</p>
-                    </div>
-
-                    <div class="col-md-3 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-search h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">البحث التنفيذي</h4>
-                        </a>
-                        <p class="text-muted"> تنفيذيين رفيعي المستوى</p>
-                    </div>
-                    
-                    <div class="col-md-3 col-6 col-sm-6 py-3">
-                        <a href="services" class="text-dark">
-                            <span class="fa-stack fa-4x">
-                                <i class="bi bi-bar-chart-fill h1 text-warning"></i>
-                            </span>
-                            <h4 class="my-3">الخدمات المدارة</h4>
-                        </a>
-                        <p class="text-muted">حلول شاملة</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-    
-    <!-- Clients-->
-    <!-----------------------------
-        <section class="page-section bg-light masthead pb-2 pt-5" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="section-heading text-uppercase fw-bold" id="shadow-1">Gallery</h2>
-                        <hr class="divider" />
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="container my-3">
-            <div class="row g-4">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="card h-100">
-                    <img src="assets/direction.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                </div>
-                
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="card h-100">
-                    <img src="assets/direction.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="card h-100">
-                    <img src="assets/direction.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="card h-100">
-                    <img src="assets/direction.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
------------------------------------->
+    </section>
+      
         
-        <!-- Gallery 
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/contract.png" title="Project Name">
-                            <img class="img-fluid" src="assets/direction.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/executive.png" title="Project Name">
-                            <img class="img-fluid" src="assets/office.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/privateSec.png" title="Project Name">
-                            <img class="img-fluid" src="assets/contract.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/office.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/contract.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/privateSec.png" title="Project Name">
-                            <img class="img-fluid" src="assets/executive.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/office.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/direction.jpg" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
-<!-------------------------------------------------------------------------------------->
-
-        <!-- Contact-->
-        <section class="py-5" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center pb-4">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0" id="shadow-1">اتصل بنا</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-4">أرسل لنا رسالة وسنقوم بالرد عليك في أقرب وقت ممكن!</p>
-                    </div>
-                </div>
-
-                <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-
-                <div class="col-lg-6 col-md-6 col-12 text-center">
-                    
-                    <div class="row text-center pt-1" >
-                         <img class="img-fluid" width="100px" src="assets/logo.jpg" />
-                    </div>
-
-                    <h3 class="section-subheading fst-italic h5 lh-base my-3" id="shadow-1">سواء كنت تسعى للحصول على موهبة استثنائية أو لتعزيز حياتك المهنية، فنحن هنا لمساعدتك.</h3>
-                    <div class="col-12 align-items-center">
-                        <!-- <img class="img-fluid rounded" src="assets/office.jpg" alt="..." /> -->
-                    </div> 
-                    
-
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 text-center">
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">الاسم الكامل</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="name:required">الاسم مطلوب.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">عنوان البريد الإلكتروني</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="email:required">مطلوب البريد الإلكتروني.</div>
-                                <div class="invalid-feedback text-start" data-sb-feedback="email:email">البريد الإلكتروني غير صالح.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">رقم التليفون</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="phone:required">مطلوب رقم الهاتف.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">رسالة</label>
-                                <div class="invalid-feedback text-start" data-sb-feedback="message:required">مطلوب رسالة.</div>
-                            </div>
-                            <!-- Submit success message-->
-  
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">تم إرسال النموذج بنجاح!</div>
-                                    سوف نتصل بك قريبا، كن متيقظا !!!
-                                    <br />
-                                    <a href="#">scgcc@info.com</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">خطأ في إرسال الرسالة!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">يُقدِّم</button></div>
-                        </form>
-                    </div>
-                </div>
-
-                <!--
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-
-                       
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
-                        <h4 class="fst-italic fw-bold" id="shadow-1">Dubai: +1 (555) 123-4567 </h4>
-                        <h4 class="fst-italic fw-bold" id="shadow-1">United States: +1 (555) 123-4567 </h4>
-                        
-                    </div>
-                </div>
-                -->
-
-                
-            </div>
-        </section>
-
 <!------------------------------------------------->
 
+<?php
+    include '../app/pages/includes/footer-ar.php';
+?>
+    
 <!------------------------------------------------->
+<script type="text/javascript">
 
-        <div class="container-fluid bg-light"></div>
-    <section class="page-section bg-dark masthead py-5 pb-3" id="about">
-        <h2 class="section-heading text-uppercase fw-bold text-light text-center pt-4 my-0" id="shadow-1">ابحث عنا</h2>
-        <p class="pb-4 pt-2 mb-0 text-center text-light fst-italic">أرسل لنا رسالة وسنقوم بالرد عليك في أقرب وقت ممكن!</p>
-        <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                       
-                    </div>
-                </div>
+    $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                items:3,
+                loop:true,
+                center: true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
 
-                <div class="container-fluid px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-12 col-md-12 col-12 text-center">
-                    <div class="row text-center">
-                        <div class="col-lg-6 col-6">
-                            <div class="text-center text-light">                              
-                                <h4 id="phone">+971 4 (242) 9822</h4>
-                                <p class="fw-bold text-white">دبي</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-6">
-                            <div class="text-center text-light">
-                                <h4 id="phone">+1 (407) 636-2982</h4>
-                                <p class="fw-bold text-white">الولايات المتحدة</p>                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.9597848676813!2d55.14060967599416!3d25.06935213686593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6cb347c3947b%3A0x2631d925145d23ed!2sTrack24%20-%20Gold%20Tower%20-%20Cluster%20I%20-%20JLT!5e0!3m2!1sen!2sus!4v1706819788010!5m2!1sen!2sus"
-                            width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+</script>
 
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 text-center">
-                    </div>
-                </div>
-
-                <!--
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-
-                       
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 text-center mb-5 mb-lg-0">
-                        <h4 class="fst-italic fw-bold" id="shadow-1">Dubai: +1 (555) 123-4567 </h4>
-                        <h4 class="fst-italic fw-bold" id="shadow-1">United States: +1 (555) 123-4567 </h4>
-                        
-                    </div>
-                </div>
-                -->
-
-                
-            </div>
-        </section>
-
-
-
-        <!-- Footer-->
-        <footer class="footer py-4 bg-dark">
-            <div class="container">
-                <div class="row align-items-center text-center">
-                    
-                    <div class="col-lg-4 text-lg-start text-white" id="shadow-1">صن شاين لاستشارات المؤسسات  &copy;</div>
-
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="bi-linkedin"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="bi-facebook"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="bi-instagram"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3 text-white" href="#!">سياسة الخصوصية</a>
-                        <a class="link-dark text-decoration-none text-white" href="#!">شروط الاستخدام</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

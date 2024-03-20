@@ -112,13 +112,9 @@
                 </div> -->
             </div>
         </section>
-
-        <section class="page-section pt-3" id="services align-items-center">
-            
-        </section>
            
-        <!-- Services-->
-        <section class="page-section pt-3" id="services align-items-center">
+        <!-- Login-->
+        <section class="page-section pt-3" id="main-box">
             <div class="container px-lg-5" >
                
                 <div class="row gx-4 gx-lg-5 ">
@@ -170,7 +166,7 @@
                                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                                     <!-- Submit Button-->
 
-                                    <a href="admin"><div class="d-grid"> <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div></a>
+                                    <a href="admin"><div class="d-grid"> <button class="btn btn-primary btn-xl disabled"  type="submit">Submit</button></div></a>
                                     </form>
                             </div>
                         </div>
@@ -181,9 +177,6 @@
             </div>
         </section>
         
-        <section class="page-section pt-3" id="services align-items-center">
-            
-        </section>
         
 
 

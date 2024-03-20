@@ -1,7 +1,7 @@
 <?php
 
 
-//define('ROOT', "http://localhost");
+define('ROOT', "http://localhost");
 //define('APP', 'Sunshine Enterprise Consulting');
 
 

@@ -1,10 +1,7 @@
 <?php
-
-    define('ROOT', "http://localhost");
-
     
-    require("../app/core/connection.php");
-    require("../app/core/functions.php");
+    require "../app/core/init.php";
+
 
 
     //if doest exist home, home is default value 
